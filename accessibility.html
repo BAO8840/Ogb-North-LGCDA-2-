@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility | Ogbomoso North Local Government</title>
+  <meta name="description" content="How this website is built so that everyone can use it.">
+  <meta name="theme-color" content="#00472b">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;family=Source+Serif+4:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/lang.js"></script>
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en">Skip to content</span><span data-l="yo">Lọ sí àkóónú</span></a>
+<!-- Government bar: country, emergency line, language toggle -->
+<div class="gov-bar"><div class="wrap">
+  <p><img class="arms" src="assets/img/nigeria-arms.png" alt="" height="28"><strong><span data-l="en">Federal Republic of Nigeria</span><span data-l="yo">Orílẹ̀-èdè Olómìnira Àpapọ̀ Nàìjíríà</span></strong> &middot; <span data-l="en">Oyo State</span><span data-l="yo">Ìpínlẹ̀ Ọ̀yọ́</span></p>
+  <p><span data-l="en">Emergency</span><span data-l="yo">Pàjáwìrì</span>: <a href="tel:112">112</a>
+  <span class="lang" role="group" aria-label="Language"><button type="button" data-setlang="en" lang="en">English</button><button type="button" data-setlang="yo" lang="yo">Yorùbá</button></span></p>
+</div></div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html"><img class="brand-mark" src="assets/img/oyo-logo.png" alt="" height="56">
+      <span class="brand-text"><strong><span data-l="en">Ogbomoso North</span><span data-l="yo">Ògbómọ̀ṣọ́ Àríwá</span></strong><small><span data-l="en">Local Government</span><span data-l="yo">Ìjọba Ìbílẹ̀</span> &middot; <span data-l="en">Oyo State</span><span data-l="yo">Ìpínlẹ̀ Ọ̀yọ́</span></small></span></a>
+    <form class="search" role="search" data-search>
+      <label class="sr-only" for="site-search"><span data-l="en">Search the site</span><span data-l="yo">Wá nínú ojú-òpó yìí</span></label>
+      <input id="site-search" type="search" placeholder="Search the site" data-ph-yo="Wá nínú ojú-òpó yìí" autocomplete="off">
+      <button type="submit"><span data-l="en">Search</span><span data-l="yo">Wá</span></button><ul class="results" hidden></ul>
+    </form>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu"><span data-l="en">Menu</span><span data-l="yo">Àtòjọ</span></button>
+  </div>
+  <nav id="menu" class="main-nav" aria-label="Main"><div class="wrap"><ul><li><a href="index.html"><span data-l="en">Home</span><span data-l="yo">Ilé</span></a></li><li><a href="education.html"><span data-l="en">Education</span><span data-l="yo">Ẹ̀kọ́</span></a></li><li><a href="research.html"><span data-l="en">Research &amp; Implementation</span><span data-l="yo">Ìwádìí àti Ìmúṣẹ</span></a></li><li><a href="workforce.html"><span data-l="en">Workforce</span><span data-l="yo">Òṣìṣẹ́</span></a></li><li><a href="policies.html"><span data-l="en">Policies &amp; Support</span><span data-l="yo">Ìlànà àti Ìrànwọ́</span></a></li><li><a href="ethics.html"><span data-l="en">Ethics</span><span data-l="yo">Ìwà Ọmọlúàbí</span></a></li><li><a href="infrastructure.html"><span data-l="en">Infrastructure</span><span data-l="yo">Àwọn Ohun Amáyédẹrùn</span></a></li><li><a href="reports.html"><span data-l="en">Report &amp; Monitoring</span><span data-l="yo">Ìfisùn àti Àbójútó</span></a></li><li class="cta"><a href="reports.html"><span data-l="en">Report an issue</span><span data-l="yo">Ròyìn ìṣòro</span></a></li></ul></div></nav>
+</header>
+<main id="main"><section class="page-head"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html"><span data-l="en">Home</span><span data-l="yo">Ilé</span></a> / <span data-l="en">Accessibility</span><span data-l="yo">Ìrọ̀rùn Lílò</span></nav><h1><span data-l="en">Accessibility</span><span data-l="yo">Ìrọ̀rùn Lílò</span></h1><p class="lead">How this website is built so that everyone can use it.</p></div></section><section class="block "><div class="wrap"><h2>Our commitment</h2><p>This website is designed to meet the Web Content Accessibility Guidelines (WCAG) 2.2, level AA. It follows the Nigerians with Disabilities (Prohibition) Act 2018 in intent: services must be open to every resident.</p><h3>What we have done</h3><ul class="checks"><li>Every page works with a keyboard, with a visible focus outline and a skip link.</li><li>Text meets AA colour contrast and resizes to 200% without losing content.</li><li>The photo slideshow has pause, previous and next buttons and stays still if your device is set to reduce motion.</li><li>Forms have labels, and the site works on small phones.</li><li>Every service can be reached without WhatsApp, by phone call or SMS.</li><li>Pages are available in English and Yoruba.</li></ul><h3>Tell us about a barrier</h3><p>If you cannot use part of this site, write to <a href="mailto:ministrylgcm@yahoo.com?subject=Accessibility">ministrylgcm@yahoo.com</a> or visit the council office. Tell us the page and the problem.</p></div></section></main>
+<footer class="site-footer"><div class="wrap"><div class="footer-grid">
+  <section><h2><span data-l="en">Ogbomoso North Local Government</span><span data-l="yo">Ìjọba Ìbílẹ̀ Ògbómọ̀ṣọ́ Àríwá</span></h2><p><span data-l="en">Along Ogbomoso-Ikoyi Road, Kinnira, beside LAUTECH College of Health Sciences, Ogbomoso, Oyo State</span><span data-l="yo">Ojú Ọ̀nà Ògbómọ̀ṣọ́-Ikoyi, Kinnira, ẹ̀gbẹ́ LAUTECH College of Health Sciences, Ògbómọ̀ṣọ́, Ìpínlẹ̀ Ọ̀yọ́</span><br><span data-l="en">Monday to Friday, 8:00am to 5:00pm</span><span data-l="yo">Ọjọ́ Ajé sí Ọjọ́ Ẹtì, 8:00 àárọ̀ sí 5:00 ìrọ̀lẹ́</span></p></section>
+  <section><h2><span data-l="en">Contact</span><span data-l="yo">Kàn sí wa</span></h2><ul>
+    <li><span data-l="en">Phone</span><span data-l="yo">Fóònù</span>: <a href="tel:+2348033180116">+234 803 318 0116</a></li><li>WhatsApp: <a href="https://wa.me/2347046252092">+234 704 625 2092</a></li>
+    <li><span data-l="en">Email</span><span data-l="yo">Ímeèlì</span>: <a href="mailto:ministrylgcm@yahoo.com">ministrylgcm@yahoo.com</a></li><li><span data-l="en">Emergency</span><span data-l="yo">Pàjáwìrì</span>: <a href="tel:112">112</a></li></ul></section>
+  <section><h2><span data-l="en">Services</span><span data-l="yo">Àwọn iṣẹ́</span></h2><ul>
+    <li><a href="reports.html"><span data-l="en">Report an issue</span><span data-l="yo">Ròyìn ìṣòro</span></a></li><li><a href="ethics.html#information"><span data-l="en">Request information</span><span data-l="yo">Béèrè fún ìròyìn</span></a></li>
+    <li><a href="workforce.html#vacancies"><span data-l="en">Vacancies</span><span data-l="yo">Àwọn iṣẹ́ tó ṣí sílẹ̀</span></a></li><li><a href="policies.html"><span data-l="en">Bye-laws and policies</span><span data-l="yo">Òfin ìbílẹ̀ àti ìlànà</span></a></li><li><a href="leadership.html"><span data-l="en">Leadership</span><span data-l="yo">Àwọn Olórí</span></a></li><li><a href="wards.html"><span data-l="en">Wards</span><span data-l="yo">Àwọn Wọ́ọ̀dù</span></a></li><li><a href="notices.html"><span data-l="en">Notices and tenders</span><span data-l="yo">Ìkéde</span></a></li><li><a href="accessibility.html"><span data-l="en">Accessibility</span><span data-l="yo">Ìrọ̀rùn Lílò</span></a></li></ul></section>
+  <section><h2><span data-l="en">Government</span><span data-l="yo">Ìjọba</span></h2><ul>
+    <li><a href="https://nigeria.gov.ng" target="_blank" rel="noopener"><span data-l="en">Federal Republic of Nigeria</span><span data-l="yo">Orílẹ̀-èdè Olómìnira Àpapọ̀ Nàìjíríà</span></a></li>
+    <li><a href="https://oyostate.gov.ng" target="_blank" rel="noopener"><span data-l="en">Oyo State Government</span><span data-l="yo">Ìjọba Ìpínlẹ̀ Ọ̀yọ́</span></a></li>
+    <li><a href="privacy.html"><span data-l="en">Privacy notice</span><span data-l="yo">Ìkéde àṣírí</span></a></li></ul></section>
+</div><p class="legal">&copy; <span data-year>2026</span> Ogbomoso North Local Government, Oyo State, Federal Republic of Nigeria.</p></div></footer>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
