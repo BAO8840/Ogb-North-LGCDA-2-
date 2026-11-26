@@ -1,0 +1,11 @@
+/* Add-on styles for the accountability, directory, schools, tourism, culture, events and give pages */
+.subnav{background:#fff;border-bottom:1px solid var(--line)}.subnav ul{display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;margin:0 auto;padding:.5rem 1.25rem;max-width:var(--max)}
+.subnav a{display:block;padding:.45rem .8rem;border:1px solid var(--line);text-decoration:none;font-weight:600;font-size:.9rem}.subnav a:hover{background:var(--tint)}.subnav a[aria-current="page"]{background:var(--dark);color:#fff;border-color:var(--dark)}
+.card img{display:block;height:170px;object-fit:cover;margin:-1.25rem -1.25rem .9rem;width:calc(100% + 2.5rem);max-width:none}
+.src{font-size:.9rem;color:var(--muted);margin-top:1rem}
+.controls{display:grid;gap:0 1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.meter{height:14px;background:var(--grey);border:1px solid var(--line);margin:.5rem 0 1rem}.meter span{display:block;height:100%;background:var(--green)}
+.score{font-size:1.2rem;margin:0}.checklist{list-style:none;margin:0;padding:0;display:grid;gap:.5rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.checklist li{border:1px solid var(--line);background:#fff;padding:.7rem .9rem}.pill{display:inline-block;font-size:.8rem;font-weight:700;padding:.1rem .5rem;margin-right:.4rem;border:1px solid}
+.yes .pill{background:var(--tint);color:var(--dark);border-color:var(--dark)}.no .pill{background:#fff4c2;color:#4a3b00;border-color:#8a6d00}
+tbody th{text-align:left;font-size:1rem;text-transform:none;letter-spacing:0;color:var(--ink);background:#fff;border-top:1px solid var(--line);padding:.7rem .8rem;vertical-align:top;width:34%}
